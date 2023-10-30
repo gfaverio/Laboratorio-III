@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="css/lightbox.css" rel="stylesheet" />
-    <title>Kimetsu no yaiba - Galeria</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Kimetsu no yaiba</title>
 </head>
 <body>
     <header>
         <div>
             <a href="./index.html"><img src="./images/Kimetsu_logo50.png"  alt="Logo Kimetsu"></a>
+            
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         <nav id="menu_bar" class="">
@@ -27,20 +27,36 @@
     </header>
     <section>
         <article class="principal">
-            <div>
-                <img src="./images/Alturas_ok.jpg" alt="Imagen con estaturas de los personajes">
-            </div>
+            <form action="#" method="post" >
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre">
+                <label for="Correo">Correo</label>
+                <input type="email" placeholder="MailEjemplo@tuproveedor.com" >
+                <label for="CuerpoMensaje">Cuerpo del mensaje</label>
+                <input id="CuerpoMensaje" type="text"  name="CuerpoMensaje">
+               
+                <div id="botonera">
+                    <button type="submit">Enviar Mensaje.</button>
+                    <button type="reset">Borrar todo.</button>
+                 </div>
+            </form>
+
             </article>
         <article class="secundario">
-            <a class="example-image-link" href="images/l1.jpg" data-lightbox="Buzz" data-title="Buzz Lightyear con su gato."><img class="example-image" src="images/l1_min.jpg" alt="Buzz Lightyear con su gato"/></a>
-            <a class="example-image-link" href="images/l2.jpg" data-lightbox="Buzz" data-title="Buzz Lightyear señalando su imagen en un espejo."><img class="example-image" src="images/l2_min.jpg" alt="Buzz Lightyear señalando su imagen en un espejo"/></a>
+         
+
+
+
+            </form>
+
+
         </article>
     </section>
     <footer>
-        <img src="images/redes/facebook.png" alt="Facebook">
-        <img src="images/redes/twitter.png" alt="Twitter">
-        <img src="images/redes/youtube.png" alt="Youtube">
-        <img src="images/redes/instagram.png" alt="Instagram">
+        <img src="./images/redes/facebook.png" alt="Facebook">
+        <img src="./images/redes/twitter.png" alt="Twitter">
+        <img src="./images/redes/youtube.png" alt="Youtube">
+        <img src="./images/redes/instagram.png" alt="Instagram">
     </footer>
     <script type="text/javascript">
         function myFunction() {
@@ -52,6 +68,5 @@
           }
         }
     </script>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
