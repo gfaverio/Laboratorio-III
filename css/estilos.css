@@ -45,14 +45,15 @@ section{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-}
+	margin-bottom: 2%;
+	}
 .principal{
 	width: 100%;
 	height: 900px; 
 	display: flex;
 	justify-content: center;
 	align-items:start;
-/*	color: #ffffff; */
+	color: white;
 }
 
 @media (max-width: 800px){
@@ -87,6 +88,7 @@ vertical-align: top;
 
 #botonera {
 margin: 15px;
+justify-self: center;
 }
 
 button {
@@ -127,6 +129,8 @@ button {
 h4{
 	font-size: 1.5rem;
 	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.664);
 }
 footer{
 	display: flex;
@@ -145,11 +149,65 @@ footer img{
 	margin-right: .5%;
 }
 
+
 /******************************************/
+.personajes {
+	display: flex;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.664);
+	color: white;
+	margin-top: 5%;
+		}
+
+h3{
+	text-align: center;
+	margin: 5px;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}		
+h3:hover{
+	color: #d42222;
+	font-size: 1.3em;
+	cursor: pointer;
+	transition: all 0.5s;
+	}
+
+.personajes img {
+	max-width: 50%;
+
+}
+
+.imgendiv {
+	max-width: 50%;
+}
+.descripcion {
+		flex-wrap: wrap;
+		margin: 5%;
+		max-width: 25%;
+		}
+
+
+
+
+.ache1{
+	display: none;
+
+}
+
+.parrafocentral {
+	color: white;
+	margin: 20px;
+	text-align: center;
+	font-size: 2em;
+	background-color: rgba(0, 0, 0, 0.664);
+}
+
+
+
+
+
 .DentroFooter {
 	display: inline-block;
-
-
 }
 
 .FotoGaleria {
@@ -170,6 +228,13 @@ footer img{
 	margin-bottom: 2rem;
   }
 
+  .ache2{
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	margin: 2%;
+	background-color: rgba(0, 0, 0, 0.664);
+}
 
 
 /******************************************/
@@ -184,6 +249,7 @@ header{
 	position: sticky;
 	top: 0;
 	z-index: 1;
+	
 }
 header div, header a {
 	flex: 1 0 50%;
@@ -243,6 +309,7 @@ section{
 }
 h2{
 	font-size: 1rem;
+	
 }
 h4{
 	font-size: 1rem;
