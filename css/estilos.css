@@ -132,8 +132,12 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 350px;
+	height: 250px;
+	border-top: 4px solid #FFA500;
+	color: white;
 }
+
+
 footer img{
 	max-width: 2.5rem;
 	width: 100%;
@@ -141,6 +145,12 @@ footer img{
 	margin-right: .5%;
 }
 
+/******************************************/
+.DentroFooter {
+	display: inline-block;
+
+
+}
 
 .FotoGaleria {
 	display: flex;
@@ -162,7 +172,7 @@ footer img{
 
 
 
-
+/******************************************/
 
 
 @media (max-width: 480px) { 
