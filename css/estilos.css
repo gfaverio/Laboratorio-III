@@ -109,7 +109,7 @@ button {
 .secundario{
 	margin-top: 0%;
 	display: flex;
-	
+
 }
 .secundario div{
 	width: 33%;
@@ -140,6 +140,30 @@ footer img{
 	height: auto;
 	margin-right: .5%;
 }
+
+
+.FotoGaleria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+  }
+  
+  .FotoGaleria a {
+	flex: 0 0 calc(33.33% - 2rem);
+	padding: 1rem;
+	text-align: center;
+  }
+  
+  .FotoGaleria img {
+	width: 100%;
+	margin-bottom: 2rem;
+  }
+
+
+
+
+
 
 @media (max-width: 480px) { 
 header{
