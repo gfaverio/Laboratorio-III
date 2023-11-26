@@ -136,7 +136,7 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 250px;
+	height: 300px;
 	border-top: 4px solid #FFA500;
 	color: white;
 }
@@ -157,6 +157,7 @@ footer img{
 	background-color: rgba(0, 0, 0, 0.664);
 	color: white;
 	margin-top: 5%;
+	flex-direction: column;
 		}
 
 h3{
@@ -183,7 +184,7 @@ h3:hover{
 .descripcion {
 		flex-wrap: wrap;
 		margin: 5%;
-		max-width: 25%;
+		max-width: 90%;
 		}
 
 
@@ -249,6 +250,7 @@ header{
 	position: sticky;
 	top: 0;
 	z-index: 1;
+	height: 150px;
 	
 }
 header div, header a {
@@ -278,7 +280,8 @@ nav.responsive ul li a {
 }
 
 #menu_bar    {
-	margin-top: 50%;
+	margin-top: 2%;
+	
 
 
 
@@ -315,7 +318,7 @@ h4{
 	font-size: 1rem;
 }
 footer{
-	height: 80px;
+	height: 120px;
 	justify-content: space-evenly;
 }
 footer img{
