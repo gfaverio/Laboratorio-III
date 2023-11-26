@@ -3,67 +3,79 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
-body{
+
+body {
 	font-family: 'Rubik', sans-serif;
-	background-image: url(../images/Infinity_castle_ok.jpg) ;
+	background-image: url(../images/Infinity_castle_ok.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 
-	
+
 }
-header{
+
+header {
 	padding-top: 2%;
 	padding-right: 7%;
 	padding-bottom: 2%;
 	padding-left: 7%;
 	display: flex;
 	justify-content: space-between;
-	background-image: linear-gradient(to right, #613412, #B76729,#68340E);
+	background-image: linear-gradient(to right, #613412, #B76729, #68340E);
 }
-nav ul{
+
+nav ul {
 	margin-top: 3%;
 }
-nav ul li{
+
+nav ul li {
 	display: inline-block;
 }
-nav ul li a{
+
+nav ul li a {
 	font-size: 1.2rem;
 	padding-right: 2rem;
 	text-transform: uppercase;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
 	text-decoration: underline;
 	font-weight: 800;
 }
-a{
+
+a {
 	text-decoration: none;
 	color: #ffffff;
 }
-.icon { display: none; }
-section{
+
+.icon {
+	display: none;
+}
+
+section {
 	max-width: 1300px;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2%;
-	}
-.principal{
+}
+
+.principal {
 	width: 100%;
-	height: 900px; 
+	height: 900px;
 	display: flex;
 	justify-content: center;
-	align-items:start;
+	align-items: start;
 	color: white;
 }
 
-@media (max-width: 800px){
-.principal{
-	background-size: contain;
-}
+@media (max-width: 800px) {
+	.principal {
+		background-size: contain;
+	}
 }
 
 form {
-	display:block ;
+	display: block;
 	max-width: auto;
 	width: 100%;
 
@@ -76,19 +88,19 @@ form label {
 }
 
 form input {
-width: 100%;
+	width: 100%;
 }
 
 #CuerpoMensaje {
-min-height: 400px;
-text-align: left;
-padding-left: 0;
-vertical-align: top;
+	min-height: 400px;
+	text-align: left;
+	padding-left: 0;
+	vertical-align: top;
 }
 
 #botonera {
-margin: 15px;
-justify-self: center;
+	margin: 15px;
+	justify-self: center;
 }
 
 button {
@@ -102,37 +114,42 @@ button {
 	margin-top: 5%;
 }
 
-.principal div img{
+.principal div img {
 	width: 100%;
 	height: auto;
-	
-	
+
+
 }
-.secundario{
+
+.secundario {
 	margin-top: 0%;
 	display: flex;
 
 }
-.secundario div{
+
+.secundario div {
 	width: 33%;
 	padding: 2%;
 	text-align: center;
-	align-items:start;
-	
+	align-items: start;
+
 
 
 }
-.secundario div a img{
+
+.secundario div a img {
 	width: 100%;
 	margin-bottom: 2rem;
 }
-h4{
+
+h4 {
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.664);
 }
-footer{
+
+footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -142,7 +159,7 @@ footer{
 }
 
 
-footer img{
+footer img {
 	max-width: 2.5rem;
 	width: 100%;
 	height: auto;
@@ -157,40 +174,40 @@ footer img{
 	background-color: rgba(0, 0, 0, 0.664);
 	color: white;
 	margin-top: 5%;
-	flex-direction: column;
-		}
+	
+}
 
-h3{
+h3 {
 	text-align: center;
 	margin: 5px;
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
-}		
-h3:hover{
+}
+
+h3:hover {
 	color: #d42222;
 	font-size: 1.3em;
 	cursor: pointer;
 	transition: all 0.5s;
-	}
-
-.personajes img {
-	max-width: 50%;
-
 }
 
-.imgendiv {
+
+
+
+.imagendiv {
 	max-width: 50%;
 }
+
 .descripcion {
-		flex-wrap: wrap;
-		margin: 5%;
-		max-width: 90%;
-		}
+	flex-wrap: wrap;
+	margin: 5%;
+	max-width: 35%;
+}
 
 
 
 
-.ache1{
+.ache1 {
 	display: none;
 
 }
@@ -216,20 +233,20 @@ h3:hover{
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 100%;
-  }
-  
-  .FotoGaleria a {
+}
+
+.FotoGaleria a {
 	flex: 0 0 calc(33.33% - 2rem);
 	padding: 1rem;
 	text-align: center;
-  }
-  
-  .FotoGaleria img {
+}
+
+.FotoGaleria img {
 	width: 100%;
 	margin-bottom: 2rem;
-  }
+}
 
-  .ache2{
+.ache2 {
 	color: white;
 	text-align: center;
 	font-size: 2.5em;
@@ -240,90 +257,133 @@ h3:hover{
 
 /******************************************/
 
+@media (max-width: 480px) {
 
-@media (max-width: 480px) { 
-header{
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	background-color: #ffffff;
-	position: sticky;
-	top: 0;
-	z-index: 1;
-	height: 150px;
+	/**********************************aca***********************************/
 	
-}
-header div, header a {
-	flex: 1 0 50%;
-}
-header nav {
-	flex-basis: 100%;
-}
-.icon {
-	display: block;
-	padding-right: 0.6rem;
-	text-align: right;
-}
-nav ul {
-	display: none;
-}
-nav.responsive ul {
-	display: block;
-}
-nav.responsive ul li {
-	display: block;
-	text-align: center;
-	padding: 0.5rem;
-}
-nav.responsive ul li a {
-	padding-right: 0;
-}
+	
+	.personajes {
 
-#menu_bar    {
-	margin-top: 2%;
+		flex-direction:column;
+		
+    	
+	}
+
+	.descripcion {
+
+	/*	flex-wrap: wrap; */
+		margin: 5%;
+		max-width: 90%;
+	}
+
+	.imagendiv {
+		max-width: 90%;
+		width: 90%;
+		
+	}
+
 	
 
+	/**********************************aca***********************************/
+
+	header {
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		background-color: #ffffff;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		height: 150px;
+
+	}
+
+	header div,
+	header a {
+		flex: 1 0 50%;
+	}
+
+	header nav {
+		flex-basis: 100%;
+	}
+
+	.icon {
+		display: block;
+		padding-right: 0.6rem;
+		text-align: right;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	nav.responsive ul {
+		display: block;
+	}
+
+	nav.responsive ul li {
+		display: block;
+		text-align: center;
+		padding: 0.5rem;
+	}
+
+	nav.responsive ul li a {
+		padding-right: 0;
+	}
+
+	#menu_bar {
+		margin-top: 2%;
 
 
-}
 
 
-section{
-	max-width: 480px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.principal{
-	height: 250px;
-	padding: 10%;
-}
-.secundario{
-	margin-top: 1%;
-	display: block;
-}
-.secundario div{
-	margin-right: auto;
-	margin-left: auto;
-	width: 90%;
-}
-.secundario div a img{
-	margin-bottom: 1rem;
-}
-h2{
-	font-size: 1rem;
-	
-}
-h4{
-	font-size: 1rem;
-}
-footer{
-	height: 120px;
-	justify-content: space-evenly;
-}
-footer img{
-	max-width: 3rem;
-}
+	}
+
+
+	section {
+		max-width: 480px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.principal {
+		height: 250px;
+		padding: 10%;
+	}
+
+	.secundario {
+		margin-top: 1%;
+		display: block;
+	}
+
+	.secundario div {
+		margin-right: auto;
+		margin-left: auto;
+		width: 90%;
+	}
+
+	.secundario div a img {
+		margin-bottom: 1rem;
+	}
+
+	h2 {
+		font-size: 1rem;
+
+	}
+
+	h4 {
+		font-size: 1rem;
+	}
+
+	footer {
+		height: 120px;
+		justify-content: space-evenly;
+	}
+
+	footer img {
+		max-width: 3rem;
+	}
 
 
 }
