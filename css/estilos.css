@@ -168,6 +168,14 @@ footer img {
 
 
 /******************************************/
+
+span {
+    color: white; /* Texto blanco */
+    text-decoration: underline; /* Subrayado */
+	font-weight: bold;
+	font-style: oblique;
+}
+
 .personajes {
 	display: flex;
 	width: 100%;
@@ -196,6 +204,7 @@ h3:hover {
 
 .imagendiv {
 	max-width: 50%;
+	
 }
 
 .descripcion {
@@ -274,11 +283,13 @@ h3:hover {
 	/*	flex-wrap: wrap; */
 		margin: 5%;
 		max-width: 90%;
+		
 	}
 
 	.imagendiv {
 		max-width: 90%;
 		width: 90%;
+		margin: 5% auto;
 		
 	}
 
