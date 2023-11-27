@@ -77,8 +77,9 @@ section {
 form {
 	display: block;
 	max-width: auto;
-	width: 100%;
-
+	width: 100% ;
+	margin: auto;
+	
 }
 
 form label {
@@ -338,6 +339,18 @@ h3:hover {
 
 	
 	/**********************************aca***********************************/
+	button {
+		margin: auto;
+		width: 70px;
+	}
+	
+	form {
+		display: block;
+		max-width: auto;
+		width: 80% !important;
+		
+	}
+	
 	.submenu {
 		position: absolute;
 		width: 35%;
@@ -370,16 +383,7 @@ h3:hover {
 		background-color:rgba(0, 0, 0, 0.664); 
 		width: auto;
 	}
-/*
-	.submenu {
-		display: none !important; 
-		position: absolute;	
-		top: 180px;
-		left: 305px;
-		width: auto;		
-		
-	}
-*/
+
 	
 	
 	.personajes {
