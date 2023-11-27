@@ -164,6 +164,36 @@ footer img {
 
 
 /******************************************/
+
+/*********************************menu con subniveles*********************************/
+.submenu {
+	position: absolute; 
+	top: 18px ;
+	display: none;
+	list-style: none;
+	width:200px;
+	background-color: rgba(0, 0, 0, 0.664);
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+
+.submenu li:hover {
+	background-color: rgba(0, 0, 0, 0.664);
+}
+
+.submenu li a {
+	display: block;
+	padding: 15px 15px 15px 20px;
+	text-decoration: none;
+}
+
+
+
+
+/*********************************menu con subniveles*********************************/
+
 .etiqueta {
 	background-color: rgba(0, 0, 0, 0.664);
 	display:inline-block;
@@ -188,8 +218,8 @@ button {
 }
 
 span {
-    color: white; /* Texto blanco */
-    text-decoration: underline; /* Subrayado */
+    color: white; 
+    text-decoration: underline; 
 	font-weight: bold;
 	font-style: oblique;
 }
@@ -229,6 +259,7 @@ h3:hover {
 	flex-wrap: wrap;
 	margin: 5%;
 	max-width: 35%;
+	font-size: 1.2em;
 }
 
 
@@ -287,7 +318,47 @@ h3:hover {
 
 @media (max-width: 480px) {
 
+	nav ul {
+		display: none;
+	}
+
+	nav.responsive ul {
+		display: block;
+	}
+
+	nav.responsive ul li {
+		display: block;
+		text-align: center;
+		padding: 0.5rem;
+	}
+
+	nav.responsive ul li a {
+		padding-right: 0;
+	}
+
+	
 	/**********************************aca***********************************/
+	.item {
+		display: none;	
+
+	}
+
+	
+	.menu {
+
+		background-color:rgba(0, 0, 0, 0.664); 
+		width: auto;
+	}
+
+	.submenu {
+		display: none !important; 
+		position: absolute;	
+		top: 180px;
+		left: 305px;
+		width: auto;		
+		
+	}
+
 	
 	
 	.personajes {
@@ -343,23 +414,7 @@ h3:hover {
 		text-align: right;
 	}
 
-	nav ul {
-		display: none;
-	}
 
-	nav.responsive ul {
-		display: block;
-	}
-
-	nav.responsive ul li {
-		display: block;
-		text-align: center;
-		padding: 0.5rem;
-	}
-
-	nav.responsive ul li a {
-		padding-right: 0;
-	}
 
 	#menu_bar {
 		margin-top: 2%;
@@ -414,6 +469,5 @@ h3:hover {
 	footer img {
 		max-width: 3rem;
 	}
-
 
 }
