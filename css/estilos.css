@@ -98,10 +98,6 @@ form input {
 	vertical-align: top;
 }
 
-#botonera {
-	margin: 15px;
-	justify-self: center;
-}
 
 button {
 	margin-right: 10px;
@@ -168,6 +164,28 @@ footer img {
 
 
 /******************************************/
+.etiqueta {
+	background-color: rgba(0, 0, 0, 0.664);
+	display:inline-block;
+	height: 20px;
+	font-size: 1.2em;
+}
+
+
+button {
+	border-width: 5px;
+	width: 15%;
+	height: 50px;
+	margin: 15px;
+
+
+}
+
+#botonera {
+	width: 90%;
+	margin: 15px;
+	justify-self: center;
+}
 
 span {
     color: white; /* Texto blanco */
@@ -223,6 +241,7 @@ h3:hover {
 
 .parrafocentral {
 	color: white;
+
 	margin: 20px;
 	text-align: center;
 	font-size: 2em;
