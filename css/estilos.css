@@ -338,6 +338,27 @@ h3:hover {
 
 	
 	/**********************************aca***********************************/
+	.submenu {
+		position: absolute;
+		width: 35%;
+		visibility: hidden;
+		opacity: .664;
+		top: 180px;
+		left: 305px;
+		}
+
+		.submenu li a {
+			display: block;
+			text-align: left;
+					}
+
+		.menu li:hover .submenu{
+			visibility: visible;
+			opacity: 1;	
+		}
+
+
+
 	.item {
 		display: none;	
 
@@ -349,7 +370,7 @@ h3:hover {
 		background-color:rgba(0, 0, 0, 0.664); 
 		width: auto;
 	}
-
+/*
 	.submenu {
 		display: none !important; 
 		position: absolute;	
@@ -358,7 +379,7 @@ h3:hover {
 		width: auto;		
 		
 	}
-
+*/
 	
 	
 	.personajes {
